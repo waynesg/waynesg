@@ -21,7 +21,7 @@ jobs:
           config_padding: 10%
           use_prebuilt_image: master
           base: "header, repositories"
-           plugin_isocalendar: yes
+          plugin_isocalendar: yes
           #          plugin_isocalendar_duration: full-year
           plugin_lines: yes
           plugin_traffic: yes
