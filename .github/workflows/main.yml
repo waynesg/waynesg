@@ -26,9 +26,8 @@ jobs:
           plugin_lines: yes
           plugin_traffic: yes
 
-          plugin_pagespeed: yes
-          # plugin_pagespeed_screenshot: yes
-          plugin_pagespeed_url: https://BlueSkyClouds.com
+          plugin_projects: yes
+          plugin_projects_limit: 4
 
       - name: Personal metrics (additional)
         uses: lowlighter/metrics@master
